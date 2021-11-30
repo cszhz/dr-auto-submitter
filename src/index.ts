@@ -35,8 +35,8 @@ import {Submitter} from "./submitter";
         //}
         //submissions.push({model: a[0], hash: a[1]})
         if (a.length != 2) {
-            console.log('Model:',a[0])；
-            submissions.push({model: a[0], hash: "races/arn%3Aaws%3Adeepracer%3A%3A549828897912%3Aleaderboard%2Ff1ff4d1e-0da2-43ba-aa74-0f13bd627414"})；
+            console.log('Model:',a[0]);
+            submissions.push({model: a[0], hash: "races/arn%3Aaws%3Adeepracer%3A%3A549828897912%3Aleaderboard%2Ff1ff4d1e-0da2-43ba-aa74-0f13bd627414"});
         }else
         {
             submissions.push({model: a[0], hash: a[1]})
